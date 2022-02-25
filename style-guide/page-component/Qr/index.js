@@ -16,7 +16,6 @@ const Qr = () => {
 
   return (
     <div className={styles.qr_container}>
-      <QRCode value={makeid(3)} size="250" fgColor="#000" />
     </div>
   );
 };
